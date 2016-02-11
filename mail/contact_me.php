@@ -1,8 +1,6 @@
 <?php
 // Check for empty fields
 
-error_log("Contact form submitted");
-
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['message'])	||
@@ -27,10 +25,10 @@ $headers .= "Reply-To: $email_address";
 // Sendgrid start
 
  $url = 'https://api.sendgrid.com/';
- $user = getenv("SENDGRID_USER");
- $pass = getenv("SENDGRID_KEY"); 
-
- error_log("Sendgrid user: " + $user);
+ //$user = getenv("SENDGRID_USER");
+ //$pass = getenv("SENDGRID_KEY"); 
+ $user = "azure_ac6ee64d123cf76abe6999a1367487bc@azure.com";
+ $pass = "Srishti_2007"; 
 
  $params = array(
       'api_user' => $user,
@@ -63,7 +61,6 @@ $headers .= "Reply-To: $email_address";
 
  // print everything out
  print_r($response);
- error_log("Contact form submission ends");
 
 // Sendgrid End
 
