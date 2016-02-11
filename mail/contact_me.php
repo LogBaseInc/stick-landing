@@ -25,10 +25,8 @@ $headers .= "Reply-To: $email_address";
 // Sendgrid start
 
  $url = 'https://api.sendgrid.com/';
- //$user = getenv("SENDGRID_USER");
- //$pass = getenv("SENDGRID_KEY"); 
- $user = "azure_ac6ee64d123cf76abe6999a1367487bc@azure.com";
- $pass = "Srishti_2007"; 
+ $user = getenv("SENDGRID_USER");
+ $pass = getenv("SENDGRID_KEY"); 
 
  $params = array(
       'api_user' => $user,
