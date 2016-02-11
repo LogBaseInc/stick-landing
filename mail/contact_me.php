@@ -1,7 +1,7 @@
 <?php
 // Check for empty fields
 
-echo "Contact form submitted";
+error_log("Contact form submitted");
 
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
@@ -30,7 +30,7 @@ $headers .= "Reply-To: $email_address";
  $user = getenv("SENDGRID_USER");
  $pass = getenv("SENDGRID_KEY"); 
 
- echo "Sendgrid user: " + $user;
+ error_log("Sendgrid user: " + $user);
 
  $params = array(
       'api_user' => $user,
@@ -63,7 +63,7 @@ $headers .= "Reply-To: $email_address";
 
  // print everything out
  print_r($response);
- echo "Contact form submission ends";
+ error_log("Contact form submission ends");
 
 // Sendgrid End
 
