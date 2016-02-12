@@ -6,7 +6,7 @@
 Welcome to Stick's documentation!
 =================================
 
-Contents:
+Our documentation should be put up shortly. Meanwhile, for any support or help please email to cotactus@logbase.io
 
 .. toctree::
    :maxdepth: 2
