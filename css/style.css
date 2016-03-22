@@ -88,7 +88,7 @@ img::-moz-selection {
 -----------------------------------------*/
 /* 2.1 FONTS*/
 
-/*
+
 @font-face {
     font-family: PTSans;
     font-weight: normal;
@@ -99,7 +99,6 @@ img::-moz-selection {
     font-weight: bold;
     src: url(../fonts/PT_Sans-Web-Bold.ttf);
 }
-*/
 @font-face {
     font-family: WorkSans;
     src: url(../fonts/WorkSans-Light.ttf);
