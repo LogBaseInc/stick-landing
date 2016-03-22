@@ -88,6 +88,7 @@ img::-moz-selection {
 -----------------------------------------*/
 /* 2.1 FONTS*/
 
+/* For Perf
 @font-face {
     font-family: PTSans;
     font-weight: normal;
@@ -97,6 +98,17 @@ img::-moz-selection {
     font-family: PTSans;
     font-weight: bold;
     src: url(../fonts/PT_Sans-Web-Bold.ttf);
+}
+*/
+@font-face {
+    font-family: PTSans;
+    font-weight: normal;
+    src: url(//fonts.googleapis.com/css?family=PT+Sans);
+}
+@font-face {
+    font-family: PTSans;
+    font-weight: bold;
+    src: url(//fonts.googleapis.com/css?family=PT+Sans:700);
 }
 @font-face {
     font-family: WorkSans;
