@@ -90,12 +90,12 @@ img::-moz-selection {
 
 /*
 @font-face {
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-weight: normal;
     src: url(../fonts/PT_Sans-Web-Regular.ttf);
 }
 @font-face {
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-weight: bold;
     src: url(../fonts/PT_Sans-Web-Bold.ttf);
 }
@@ -119,7 +119,7 @@ h3 {
     font-family: "WorkSans", Helvetica, Arial, sans-serif;
 }
 body {
-    font-family: "PTSans", Helvetica, Arial, sans-serif;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 section h2.section-heading {
     margin-top: 0;
@@ -190,7 +190,7 @@ section {
     background-color: #1080f2;
     border-radius: 2px;
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -234,7 +234,7 @@ body.modal-open {
     background-color: white;
     border-radius: 2px;
     color: #1080f2;
-    font-family: PTSans;
+    font-family: "PT Sans";
     display: inline-block;
     text-align: center;
     font-size: 14px;
@@ -266,7 +266,7 @@ body.modal-open {
     display: inline-block;
     line-height: 36px;
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     margin: 0 10px;
     font-weight: 700;
@@ -546,7 +546,7 @@ body.modal-open {
 }
 .navbar-default .nav li a {
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 700;
     opacity: 0.7;
@@ -618,7 +618,7 @@ header .intro-text {
     padding-bottom: 50px;
 }
 header .intro-text .intro-heading {
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 20px;
     font-weight: 400;
     line-height: 10px;
@@ -718,7 +718,7 @@ header .container {
     border: none;
     border-bottom: none;
     text-align: center;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 700;
     height: 58px;
@@ -818,7 +818,7 @@ header .container {
     list-style: none;
     margin: 0;
     color: #666;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 60px;
@@ -1000,7 +1000,7 @@ header .container {
 }
 .chart-content h4 {
     color: #666;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 18px;
     margin: 0;
     font-weight: 400;
@@ -1042,7 +1042,7 @@ header .container {
     border-radius: 2px 2px 0 0;
     text-align: center;
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 16px;
     font-weight: 700;
     line-height: 62px;
@@ -1120,7 +1120,7 @@ header .container {
     text-align: center;
     line-height: 1;
     color: #666;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 16px;
 }
 .pricing .pricing-row.selected .pricing-option {
@@ -1287,7 +1287,7 @@ header .container {
     margin-bottom: -50px;
 }
 .team-content h5 {
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 20px;
     font-weight: 700;
     line-height: 1;
@@ -1489,7 +1489,7 @@ header .container {
     border: 2px solid white;
     height: 50px;
     color: inherit;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1625,7 +1625,7 @@ footer {
 .lower-footer a {
     opacity: 0.2;
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 12px;
     font-weight: 400;
     line-height: 40px;
@@ -1673,7 +1673,7 @@ footer {
     max-width: 250px;
     margin-top: 30px;
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 400;
     text-align: left;
@@ -1694,7 +1694,7 @@ footer {
 }
 .footer-nav a {
     color: white;
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 700;
     padding: 0;
@@ -1727,7 +1727,7 @@ footer {
     width: 100%;
 }
 .footer-secondary-nav a {
-    font-family: PTSans;
+    font-family: "PT Sans";
     font-size: 14px;
     font-weight: 400;
     color: #fff;
