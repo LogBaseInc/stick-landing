@@ -2109,3 +2109,6 @@ text-transform: uppercase;
 #colors li #orange {
     background: #ff9800;
 }
+.stick-no-bottom-margin {
+	margin-bottom: 0px !important;
+}
